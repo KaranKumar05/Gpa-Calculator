@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(4, 17, 66);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 29em; */
+    /* width: 80em; */
+
+}
+.input_subject{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 2em;
+    align-items: center;
+}
+.input_subject>button{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.input_subject>button:hover{
+    border: none;
+    background-color: rgb(100, 216, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="number"] {
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    /* margin-bottom: 2em; */
+    /* width: 5em; */
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+body>button{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.end_heading{
+  border-bottom: 2px solid white;
+  /* margin-bottom: 2em; */
+  background-color: white;
+  color: blue;
+  padding: 10px;
+  border-radius: 50px 10px;
+}
+  .answer {
+    display: flex;
+    column-gap: 2em;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+@media (max-width:1000px) {
+    body>h1{
+        font-size: 2em;
+    }
+    h1 .heading_block{
+        display: block;
+        text-align: center;
+    }
+    .answer {
+        display: flex;
+        column-gap: 1em;
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 1em;
+      } 
+      #input-container input{
+        width: 8em;
+      }
+      #input-containerCH input{
+        width: 10em;
+      }
+
+}
